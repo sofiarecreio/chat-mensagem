@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.historico {
+    border: 1px solid black;
+}
+
+.titulo {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background-color: #C4C4C4;
+    border: 1px solid black;
+}
+
+.tituloestilo {
+    font-family: arial;
+    font-size: 24px;
+    margin-left: 1%;
+}
+
+#nova_div {
+    border: 1px solid black;
+}
+
+
+
+.secao_mensagem {
+    align-items: flex-end;
+    margin: 10px 5px;
+    height: 700px;
+}
+
+.mensagem {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.botao_secao {
+    float: right;
+}
+
+.box_mensagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C4C4C4;
+    column-width: 70%;
+    height: 89px;
+    border: 1px solid black;
+}
+
+.input {
+    display: flex;
+    justify-content: baseline;
+    height: 75px;
+    width: 40%;
+}
+
+.botao_box {
+    display: flex;
+    justify-content: baseline;
+}
